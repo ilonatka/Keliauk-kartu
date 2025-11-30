@@ -2,11 +2,11 @@ Keliauk kartu
 
 A tourism website about Lithuania.
 
-Technologies
-	•	HTML5 – page structure
-	•	SCSS/SASS – styling
-	•	JavaScript – interactivity (slider)
-	•	Google Maps API – maps on the contact page
+### Technologies  
+- **HTML5** – page structure  
+- **SCSS/SASS** – styling  
+- **JavaScript** – interactivity (slider)  
+- **Google Maps API** – maps on the contact page  
 
 Project Structure
 
