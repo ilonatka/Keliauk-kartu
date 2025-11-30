@@ -1,0 +1,76 @@
+// Variables
+
+// Colors
+$color-white: #FFF;
+$color-primary: #1B6BED;
+$color-cyan: #00D4E4;
+$color-gray: #4B4B4B;
+$color-dark: #333;
+$color-blue: #11224D;
+$color-bg: #F9F9F9;
+
+// Gradients
+$gradient-primary: linear-gradient(180deg, $color-cyan -40.5%, $color-primary 97.28%);
+
+
+// Mixins
+@mixin container-desktop {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin section-spacing($top: 120px, $horizontal: 20px, $bottom: $top) {
+  padding: $top $horizontal $bottom;
+}
+
+// Typography
+@mixin h1 {
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 110%;
+}
+
+@mixin h2 {
+  color: $color-dark;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 48px;
+  color: $color-dark;
+}
+
+@mixin paragraph {
+    color: $color-gray;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
+}
+
+@mixin txt-btn {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+// Buttons
+@mixin btn {
+    border: none;
+    border-radius: 32px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: center;
+    @include txt-btn;
+    transition-default: 0.3s ease;
+  }
+  
